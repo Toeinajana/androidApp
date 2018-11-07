@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "847336931736",
+    "firebase_url": "https://ait-museum-1537272811015.firebaseio.com",
+    "project_id": "ait-museum-1537272811015",
+    "storage_bucket": "ait-museum-1537272811015.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:847336931736:android:b1297d43e49ae792",
+        "android_client_info": {
+          "package_name": "com.example.toeinajana.aitmuseum"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "847336931736-lrg0863cjcoussp9prv55sku939077sm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.toeinajana.aitmuseum",
+            "certificate_hash": "d5a33854ebfcd6d479251d3e12ad23cd15f63954"
+          }
+        },
+        {
+          "client_id": "847336931736-ehkkeosl33br03i4qf73k5vpc91at4go.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkbyzxVf9aDTRPXNLPqLw9XPqx0ARrwd0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "847336931736-ehkkeosl33br03i4qf73k5vpc91at4go.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

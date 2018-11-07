@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QrcodeActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:background="@color/zxing_transparent"
+        android:text="✤"
+        android:textColor="@color/colorAccent"
+        android:textSize="70sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="224dp"
+        android:layout_marginTop="36dp"
+        android:text="QR code"
+        android:textColor="@android:color/black"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/prev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="744dp"
+        android:clickable="true"
+        android:onClick="prve"
+        android:text="◀"
+        android:textColor="@android:color/black"
+        android:textSize="60sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="524dp"
+        android:layout_marginTop="744dp"
+        android:clickable="true"
+        android:text="▶"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="60sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/scan_btn"
+        android:layout_width="241dp"
+        android:layout_height="108dp"
+        android:layout_marginStart="188dp"
+        android:layout_marginTop="636dp"
+        android:text="Scan"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewShow"
+        android:layout_width="504dp"
+        android:layout_height="466dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="136dp"
+        android:background="@color/common_google_signin_btn_text_dark_focused"
+        android:enabled="true"
+        android:focusable="true"
+        android:longClickable="true"
+        android:textColor="@android:color/holo_green_dark"
+        android:textIsSelectable="true"
+        android:textSize="36sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

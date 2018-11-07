@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:background="@color/zxing_transparent"
+        android:text="✤"
+        android:textColor="@color/colorAccent"
+        android:textSize="70sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ViewFlipper
+        android:id="@+id/slider"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_centerHorizontal="true">
+
+    </ViewFlipper>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="480dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="280dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="193dp">
+
+            <TextView
+                android:id="@+id/head1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Science"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="141dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                tools:layout_editor_absoluteX="101dp"
+                tools:layout_editor_absoluteY="193dp">
+
+                <ImageView
+                    android:id="@+id/scince"
+                    android:layout_width="290dp"
+                    android:layout_height="290dp"
+                    app:srcCompat="@drawable/activity"
+                    android:onClick="science"
+                    android:clickable="true"/>
+
+                <ImageView
+                    android:id="@+id/kid"
+                    android:layout_width="290dp"
+                    android:layout_height="290dp"
+                    app:srcCompat="@drawable/kid2"
+                    android:onClick="science"
+                    android:clickable="true"/>
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:clickable="true"
+                android:onClick="more1"
+                android:text="more..."
+                android:textColor="@android:color/black"
+                android:textSize="28sp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="141dp" />
+
+
+            <TextView
+                android:id="@+id/head2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Culture"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="141dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                tools:layout_editor_absoluteX="101dp"
+                tools:layout_editor_absoluteY="193dp">
+
+                <ImageView
+                    android:id="@+id/ancient"
+                    android:layout_width="290dp"
+                    android:layout_height="290dp"
+                    app:srcCompat="@drawable/ancient2"
+                    android:onClick="science"
+                    android:clickable="true"/>
+
+                <ImageView
+                    android:id="@+id/man"
+                    android:layout_width="290dp"
+                    android:layout_height="290dp"
+                    app:srcCompat="@drawable/man2"
+                    android:onClick="science"
+                    android:clickable="true"/>
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/more2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:clickable="true"
+                android:onClick="more2"
+                android:text="more..."
+                android:textColor="@android:color/black"
+                android:textSize="28sp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="141dp" />
+
+
+            <TextView
+                android:id="@+id/head3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="History"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="141dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                tools:layout_editor_absoluteX="101dp"
+                tools:layout_editor_absoluteY="193dp">
+
+                <ImageView
+                    android:id="@+id/animal"
+                    android:layout_width="290dp"
+                    android:layout_height="290dp"
+                    app:srcCompat="@drawable/animal"
+                    android:onClick="science"
+                    android:clickable="true"/>
+
+                <ImageView
+                    android:id="@+id/group"
+                    android:layout_width="290dp"
+                    android:layout_height="290dp"
+                    app:srcCompat="@drawable/group2"
+                    android:onClick="science"
+                    android:clickable="true"/>
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/more3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:clickable="true"
+                android:onClick="more3"
+                android:text="more..."
+                android:textColor="@android:color/black"
+                android:textSize="28sp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="141dp" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/prev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="760dp"
+        android:clickable="true"
+        android:onClick="prve"
+        android:text="◀"
+        android:textColor="@android:color/black"
+        android:textSize="46sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="536dp"
+        android:layout_marginTop="760dp"
+        android:clickable="true"
+        android:text="▶"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="46sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>
+

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/btn6"
+        android:title="Home"
+        />
+
+
+
+    <item
+        android:id="@+id/btn2"
+        android:title="QR code scanner"/>
+
+    <item
+        android:id="@+id/btn3"
+        android:title="Camera"/>
+
+    <item
+        android:id="@+id/btn4"
+        android:title="Visiting history"/>
+
+    <item
+        android:id="@+id/btn5"
+        android:title="Log out"/>
+
+
+
+
+
+
+</menu>
